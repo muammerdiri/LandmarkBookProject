@@ -1,42 +1,15 @@
 package com.muammerdiri.landmarkbook;
 
-import android.widget.ImageView;
+import java.io.Serializable;
 
-public class Landmark {
-    String country;
+public class Landmark implements Serializable {
     String name;
+    String country;
     int image;
 
-    public Landmark() {
-    }
-
-    public Landmark(String country, String name, int image) {
-        this.country = country;
+    public Landmark(String name, String country, int image) {
         this.name = name;
-        this.image = image;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
         this.country = country;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getImage() {
-        return image;
-    }
-
-    public void setImage(int image) {
         this.image = image;
     }
 }

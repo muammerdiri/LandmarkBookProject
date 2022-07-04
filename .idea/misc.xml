@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/muammerdiri/AndroidStudioProjects/LandmarkBook/app/src/main/res/layout/activity_details.xml" value="0.25" />
-        <entry key="..\:/Users/muammerdiri/AndroidStudioProjects/LandmarkBook/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/muammerdiri/AndroidStudioProjects/LandmarkBook/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/muammerdiri/AndroidStudioProjects/LandmarkBook/app/src/main/res/layout/recycler_row.xml" value="0.25" />
       </map>
     </option>
   </component>
